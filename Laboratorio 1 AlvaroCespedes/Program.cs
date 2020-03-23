@@ -7,6 +7,7 @@ namespace Laboratorio_1_AlvaroCespedes
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("segundo ");
         }
     }
 }
