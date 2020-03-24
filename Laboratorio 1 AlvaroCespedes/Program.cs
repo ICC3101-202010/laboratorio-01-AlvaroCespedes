@@ -2,7 +2,7 @@
 
 namespace Laboratorio_1_AlvaroCespedes
 {   
-    public class Mainclass
+    public class  Mainclass
     {
         public class Persona
         {
@@ -12,9 +12,9 @@ namespace Laboratorio_1_AlvaroCespedes
             public int Throw()
             {
                 Console.WriteLine("CA CHI PUN!");
-                for (int x = 0; x < 3; x++)//Creo elif ciclo, (i++ = i+=1)
                 {
-                    Console.WriteLine($"{rnd.Next(),15:NO}");
+                    int var = rnd.Next(0, 3);
+                    return var;
                 }
 
             }
