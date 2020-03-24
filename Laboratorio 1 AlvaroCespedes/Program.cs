@@ -1,24 +1,14 @@
 ﻿using System;
 
 namespace Laboratorio_1_AlvaroCespedes
-{   
-    public class  Mainclass
+{
+    class Program
     {
-        public class Persona
+        static void Main(string[] args)
         {
-            public string Name;
-            public string Secondname;
-            Random rnd = new Random();
-            public int Throw()
-            {
-                Console.WriteLine("CA CHI PUN!");
-                {
-                    int var = rnd.Next(0, 3);
-                    return var;
-                }
-
-            }
+            Persona persona = new Persona("Bob", "Kunga");
+            Console.WriteLine(persona._throw());
         }
     }
-    
 }
+
